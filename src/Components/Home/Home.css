@@ -1,0 +1,832 @@
+
+/* =================== OurCollection.jsx =================== */
+.custom_jeans {
+  background-image: linear-gradient(to top, black 80%, transparent);
+}
+
+.card:hover .hover_icon {
+  display: block;
+}
+
+
+/* =================== Footer.jsx =================== */
+.footer_line {
+  position: relative;
+}
+
+.footer_line::before {
+  content: '';
+  position: absolute;
+  background-color: #4B49AC;
+  height: 17px;
+  width: 6px;
+  top: 4px;
+  left: 0;
+}
+
+/* =================== startShopping.jsx =================== */
+/* ================== Left Feature 1 =================== */
+.details1,
+.details2,
+.details3,
+.details4 {
+  position: relative;
+}
+
+.details1::before {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 16rem;
+  width: 2px;
+  top: -75%;
+  right: -46%;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+.details1::after {
+  content: '';
+    position: absolute;
+    background-color: gray;
+    height: 15%;
+    width: 2px;
+    top: 11%;
+    right: -92%;
+    transform: rotate(0deg);
+    z-index: 1;
+}
+
+/* ================== Left Feature 2 =================== */
+.details2::before {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 16rem;
+  width: 2px;
+  top: -76%;
+  right: -46%;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+.details2::after {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 8rem;
+  width: 2px;
+  top: -6rem;
+  right: -92%;
+  transform: rotate(0deg);
+  z-index: 1;
+}
+
+/* ================== Right Feature 3 =================== */
+.details3::before {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 19.5rem;
+  width: 2px;
+  top: -7.5rem;
+  left: -9.6rem;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+.details3::after {
+  content: '';
+    position: absolute;
+    background-color: gray;
+    height: 2.5rem;
+    width: 2px;
+    top: -0.2rem;
+    left: -19.5rem;
+    transform: rotate(0deg);
+    z-index: 1;
+}
+
+/* ================== Left Feature 4 =================== */
+.details4::before {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 16rem;
+  width: 2px;
+  top: -6rem;
+  left: -8rem;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+.details4::after {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 2.5rem;
+  width: 2px;
+  top: 2rem;
+  left: -15.9rem;
+  transform: rotate(0deg);
+  z-index: 1;
+}
+
+@media(max-width: 767.5px) {
+  .details1::before {
+    height: 7.6rem;
+    top: -24%;
+    right: -36%;
+  }
+
+  .details1::after {
+    height: 12%;
+    top: 11%;
+    right: -70%;
+  }
+
+  /* ================== Left Feature 2 =================== */
+  .details2::before {
+    height: 7.3rem;
+    top: -22%;
+    right: -36%;
+  }
+
+  .details2::after {
+    height: 8rem;
+    top: -76%;
+    right: -70%;
+  }
+
+  /* ================== Right Feature 3 =================== */
+  .details3::before {
+    height: 10.9rem;
+    top: -3.2rem;
+    left: -5.6rem;
+  }
+
+  .details3::after {
+    height: 2.5rem;
+    top: -0.2rem;
+    left: -11rem;
+  }
+
+  /* ================== Left Feature 4 =================== */
+  .details4::before {
+    height: 8rem;
+    top: -2rem;
+    left: -4.2rem;
+  }
+
+  .details4::after {
+    height: 2.5rem;
+    top: 2rem;
+    left: -8.2rem;
+  }
+}
+
+@media(min-width:768px) and (max-width: 959px) {
+  .shooping_jeans{
+    width: 750px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pant{
+    height: 400px !important;
+  }
+  .details1::before {
+    height: 9.3rem;
+    top: -33%;
+    right: -32%;
+   
+  }
+
+  .details1::after {
+    /* height: 37%; */
+    top: 25%;
+    right: -71%;
+  }
+
+  /* ================== Left Feature 2 =================== */
+  .details2::before {
+    height: 10.3rem;
+    top: -41%;
+    right: -30%;
+  }
+
+  .details2::after {
+    height: 8rem;
+    top: -76%;
+    right: -74%;
+  }
+
+  /* ================== Right Feature 3 =================== */
+  .details3::before {
+    height: 11.9rem;
+    top: -56%;
+    left: -5.8rem;
+  }
+
+  .details3::after {
+    height: 0.6rem;
+    top: 18%;
+    left: -11.7rem;
+  }
+
+  /* ================== Left Feature 4 =================== */
+  .details4::before {
+    height: 8.6rem;
+    top: -28%;
+    left: -37%;
+  }
+
+  .details4::after {
+    height: 1rem;
+    top: 2rem;
+    left: -74%;
+  }
+}
+
+@media(min-width:960px) and (max-width: 1023.5px) {
+  .shooping_jeans{
+    width: 900px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pant{
+    height: 400px !important;
+  }
+  .details1::before {
+    height: 9.3rem;
+    top: -33%;
+    right: -16%;
+   
+  }
+
+  .details1::after {
+    /* height: 37%; */
+    top: 24%;
+    right: -42%;
+  }
+
+  /* ================== Left Feature 2 =================== */
+  .details2::before {
+    height: 10.3rem;
+    top: -41%;
+    right: -14%;
+  }
+
+  .details2::after {
+    height: 8rem;
+    top: -76%;
+    right: -43%;
+  }
+
+  /* ================== Right Feature 3 =================== */
+  .details3::before {
+    height: 11.9rem;
+    top: -4.5rem;
+    left: -3.8rem;
+  }
+
+  .details3::after {
+    height: 0.7rem;
+    top: 18%;
+    left: -9.7rem;
+  }
+
+  /* ================== Left Feature 4 =================== */
+  .details4::before {
+    height: 8.6rem;
+    top: -28%;
+    left: -16%;
+  }
+
+  .details4::after {
+    height: 1rem;
+    top: 2rem;
+    left: -40%;
+  }
+}
+
+@media(min-width:1024px) and (max-width: 1439.5px) {
+  .shooping_jeans{
+    width: 1000px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pant{
+    height: 400px !important;
+  }
+  .details1::before {
+    height: 11rem;
+    top: -45%;
+    right: -21%;
+  }
+
+  .details1::after {
+    height: 15%;
+    top: 24%;
+    right: -52%;
+  }
+
+  /* ================== Left Feature 2 =================== */
+  .details2::before {
+    height: 10.2rem;
+    top: -41%;
+    right: -24%;
+  }
+
+  .details2::after {
+    height: 8rem;
+    top: -76%;
+    right: -53%;
+  }
+
+  /* ================== Right Feature 3 =================== */
+  .details3::before {
+    height: 14rem;
+    top: -5.6rem;
+    left: -4.8rem;
+  }
+
+  .details3::after {
+    height: 0.9rem;
+    top: 17%;
+    left: -64.5%;
+  }
+
+  /* ================== Left Feature 4 =================== */
+  .details4::before {
+    height: 11rem;
+    top: -3.5rem;
+    left: -3.7rem;
+  }
+
+  .details4::after {
+    height: 1rem;
+    top: 2rem;
+    left: -9.2rem;
+  }
+}
+
+@media (min-width:1440.5px){
+.shooping_jeans{
+  width: 1370px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+/* ================== Mobile section =================== */
+.shopping_jeans_mobile .feature1,
+.shopping_jeans_mobile .feature2,
+.shopping_jeans_mobile .feature3,
+.shopping_jeans_mobile .feature4 {
+  position: relative;
+}
+
+.shopping_jeans_mobile .feature1::before {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 3.8rem;
+  width: 2px;
+  top: 9.4rem;
+  right: 8rem;
+  z-index: 1 !important;
+  /* transform: rotate(90deg); */
+}
+
+.shopping_jeans_mobile .feature1::after {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 6rem;
+  width: 2px;
+  top: 10.2rem;
+  right: 5rem;
+  transform: rotate(90deg);
+  z-index: 1 !important;
+}
+
+.shopping_jeans_mobile .feature2::before {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 2.5rem;
+  width: 2px;
+  top: 9.4rem;
+  right: 2rem;
+  z-index: 1;
+  /* transform: rotate(90deg); */
+}
+
+.shopping_jeans_mobile .feature2::after {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 8.4rem;
+  width: 2px;
+  top: 7.7rem;
+  right: 6.2rem;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+.shopping_jeans_mobile .feature3::before {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 13.5rem;
+  width: 2px;
+  top: -13.6rem;
+  right: 6.5rem;
+  z-index: 1;
+  /* transform: rotate(90deg); */
+}
+
+.shopping_jeans_mobile .feature3::after {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 6.4rem;
+  width: 2px;
+  top: -16.8rem;
+  right: 3.4rem;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+.shopping_jeans_mobile .feature4::before {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 7.5rem;
+  width: 2px;
+  top: -7.6rem;
+  right: 2rem;
+  z-index: 1;
+  /* transform: rotate(90deg); */
+}
+
+.shopping_jeans_mobile .feature4::after {
+  content: '';
+  position: absolute;
+  background-color: gray;
+  height: 6.4rem;
+  width: 2px;
+  top: -10.8rem;
+  right: 5.2rem;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+@media (min-width: 450px) and (max-width: 719.5px) {
+  .pant_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile_pant{
+    height: 350px !important;
+  }
+  .details1::before {
+    height: 7.6rem;
+    top: -24%;
+    right: -36%;
+  }
+
+  .details1::after {
+    height: 12%;
+    top: 11%;
+    right: -70%;
+  }
+
+  /* ================== Left Feature 2 =================== */
+  .details2::before {
+    height: 7.3rem;
+    top: -22%;
+    right: -36%;
+  }
+
+  .details2::after {
+    height: 8rem;
+    top: -76%;
+    right: -70%;
+  }
+
+  /* ================== Right Feature 3 =================== */
+  .details3::before {
+    height: 10.9rem;
+    top: -3.2rem;
+    left: -5.6rem;
+  }
+
+  .details3::after {
+    height: 2.5rem;
+    top: -0.2rem;
+    left: -11rem;
+  }
+
+  /* ================== Left Feature 4 =================== */
+  .details4::before {
+    height: 8rem;
+    top: -2rem;
+    left: -4.2rem;
+  }
+
+  .details4::after {
+    height: 2.5rem;
+    top: 2rem;
+    left: -8.2rem;
+  }
+}
+
+@media (max-width: 380px){
+  .mobile_pant{
+    height: 340px !important;
+  }
+  .shopping_jeans_mobile .feature1::before {
+    height: 2.9rem;
+    top: 9.4rem;
+    right: 7rem;
+  }
+  
+  .shopping_jeans_mobile .feature1::after {
+    height: 4.8rem;
+    top: 107%;
+    right: 4.6rem;
+  }
+  
+  .shopping_jeans_mobile .feature2::before {
+    height: 2.1rem;
+    top: 9.4rem;
+    right: 2rem;
+  }
+  
+  .shopping_jeans_mobile .feature2::after {
+    height: 7.4rem;
+    top: 84%;
+    right: 5.7rem;
+  }
+  
+  .shopping_jeans_mobile .feature3::before {
+    height: 12.8rem;
+    top: -12.9rem;
+    right: 6.5rem;
+  }
+  
+  .shopping_jeans_mobile .feature3::after {
+    height: 5.5rem;
+    top: -169%;
+    right: 3.8rem;
+  }
+  
+  .shopping_jeans_mobile .feature4::before {
+    height: 6.1rem;
+    top: -6rem;
+    right: 2rem;
+  }
+  
+  .shopping_jeans_mobile .feature4::after {
+    height: 5rem;
+    top: -92%;
+    right: 4.5rem;
+  }
+}
+
+@media (max-width: 325px){
+  .mobile_pant{
+    height: 300px !important;
+  }
+  
+  .shopping_jeans_mobile .feature1::before {
+    height: 2.7rem;
+    top: 9.4rem;
+    right: 5.5rem;
+  }
+  .shopping_jeans_mobile .feature1::after {
+    height: 3.8rem;
+    top: 111%;
+    right: 3.6rem;
+  }
+  
+  .shopping_jeans_mobile .feature2::before {
+    height: 1.9rem;
+    top: 9.4rem;
+    right: 2rem;
+  }
+  
+  .shopping_jeans_mobile .feature2::after {
+    height: 5.5rem;
+    top: 92%;
+    right: 4.7rem;
+  }
+  
+  .shopping_jeans_mobile .feature3::before {
+    height: 10.5rem;
+    top: -10.4rem;
+    right: 5.9rem;
+  }
+  
+  .shopping_jeans_mobile .feature3::after {
+    height: 4rem;
+    top: -12.3rem;
+    right: 4rem;
+  }
+  
+  .shopping_jeans_mobile .feature4::before {
+    height: 4.5rem;
+    top: -4.4rem;
+    right: 2rem;
+  }
+  
+  .shopping_jeans_mobile .feature4::after {
+    height: 4rem;
+    top: -6.3rem;
+    right: 4rem;
+  }
+}
+
+@media (max-width: 281px){
+  .mobile_pant{
+    height: 270px !important;
+  }
+  .mobile_button{
+    margin-top: 43px !important;
+  }
+  .shopping_jeans_mobile .feature1::before {
+    height: 2.3rem;
+    top: 12rem;
+    right: 4.2rem;
+  }
+  
+  .shopping_jeans_mobile .feature1::after {
+    height: 2.7rem;
+    top: 12.9rem;
+    right: 2.9rem;
+  }
+  
+  .shopping_jeans_mobile .feature2::before {
+    height: 2.1rem;
+    top: 11.8rem;
+    right: 2rem;
+  }
+  
+  .shopping_jeans_mobile .feature2::after {
+    height: 4.6rem;
+    top: 11.5rem;
+    right: 4.3rem;
+  }
+  
+  .shopping_jeans_mobile .feature3::before {
+    height: 9.6rem;
+    top: -9.6rem;
+    right: 68%;
+  }
+  
+  .shopping_jeans_mobile .feature3::after {
+    height: 3rem;
+    top: -120%;
+    right: 47%;
+  }
+  
+  .shopping_jeans_mobile .feature4::before {
+    height: 4.7rem;
+    top: -50%;
+    right: 2rem;
+  }
+  
+  .shopping_jeans_mobile .feature4::after {
+    height: 3rem;
+    top: -66%;
+    right: 51%;
+  }
+}
+
+
+/* ============================= our story.jsx ============================ */
+.ourstory_slider, .ourstory_slider_bigimg img{
+  object-fit: cover;
+}
+@media (max-width: 319.5px){
+.ourstory_slider{
+  width: 75px;
+  height: 66px;
+}
+.ourstory_slider_bigimg img{
+  width: 139px;
+  height: 148px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 375.5px){
+.ourstory_slider{
+  width: 93px;
+  height: 91px;
+}
+.ourstory_slider_bigimg img{
+  width: 202px;
+  height: 198px;
+}
+}
+@media (min-width: 376px) and (max-width: 450px){
+.ourstory_slider{
+  width: 110px;
+  height: 110px;
+}
+.ourstory_slider_bigimg img{
+  width: 235px;
+  height: 236px;
+}
+}
+@media (min-width: 450.5px) and (max-width: 768px){
+.ourstory_slider{
+  width: 224px;
+  height: 211px;
+}
+.ourstory_slider_bigimg img{
+  width: 464px;
+  height: 438px;
+}
+}
+@media (min-width: 768.5px) and (max-width: 959px){
+.ourstory_slider{
+  width: 288px;
+  height: 234px;
+}
+.ourstory_slider_bigimg img{
+  width: 591px;
+  height: 484px;
+}
+}
+
+
+/* 3d model css */
+
+.model_3d canvas {
+  display: block;
+}
+
+.model_3d section {
+  flex: 0.5;
+  overflow: hidden;
+  text-align: center;
+}
+
+.webgl {
+  width: auto;
+  height: 530px !important;;
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 380px) {
+  .webgl {
+    width: 250px !important;
+    height: 515px !important;
+  }
+}
+@media (min-width: 380.5px) and (max-width: 385px) {
+  .webgl {
+    width: 250px !important;
+    height: 600px !important;
+  }
+}
+@media (min-width: 385.5px) and (max-width: 390px) {
+  .webgl {
+    width: 270px !important;
+    height: 550px !important;
+  }
+}
+@media (min-width: 390.5px) and (max-width: 415px) {
+  .webgl {
+    width: 280px !important;
+    height: 640px !important;
+  }
+}
+@media (min-width: 415.5px) and (max-width: 440px) {
+  .webgl {
+    width: 280px !important;
+    height: 680px !important;
+  }
+}
+@media (min-width: 750px) and (max-width: 850px) {
+  .webgl {
+    height: 480px !important;
+  }
+}
+
+.canvas_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.patternOption {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+

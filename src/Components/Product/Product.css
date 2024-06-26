@@ -1,0 +1,53 @@
+/* ================== Filter.jsx =================== */
+.filter_size {
+  transform: translate(-50%, -58%) !important;
+}
+@media (min-width: 768.5px) and (max-width: 1440px) {
+  .filter_size {
+    /* transform: translate(-72%, -58%) !important; */
+    transform: translate(-50%, -56%) !important;
+  }
+}
+@media (max-width: 290px) {
+  .filter_color_container {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+  .filter_size_container {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+  .filter_size_container input {
+    height: 2.5rem !important;
+  }
+}
+
+.filter_scroll {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+/* width */
+.filter_scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.filter_scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.filter_scroll::-webkit-scrollbar-thumb {
+  background: #003060;
+  border-radius: 10px;
+  width: 50px !important;
+}
+
+/* Handle on hover */
+.filter_scroll::-webkit-scrollbar-thumb:hover {
+  background: #003060d5;
+}
+
+.card .focus\:opacity-\[0\.85\]:focus {
+  opacity: 1 !important;
+}

@@ -1,0 +1,55 @@
+/* =============== CustomJeans.jsx =============== */
+.custom_jeans_footer{
+    background: linear-gradient(to top, #F3F7FA 80%, transparent);
+    /* background: #F3F7FA ; */
+    position: sticky;
+    bottom: 0;
+}
+@media (max-width: 330px){
+    .custom_jeans_footer .heading h6{
+        font-size: 16px;
+    }
+    .custom_jeans_footer .heading p{
+        font-size: 14px;
+    }
+    .custom_jeans_footer .btn button{
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 290px){
+    .custom_jeans_footer>div{
+        flex-direction: column;
+    }
+    .custom_jeans_footer .btn button{
+        margin-top: 10px;
+    }
+}
+
+/* =============== CustomJeans.jsx =============== */
+.customisation{
+height: 100vh;
+overflow-y: scroll;
+}
+
+/* width */
+.customisation::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.customisation::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+.customisation::-webkit-scrollbar-thumb {
+    background: #003060; 
+    border-radius: 10px;
+    width: 50px !important;
+  }
+  
+  /* Handle on hover */
+  .customisation::-webkit-scrollbar-thumb:hover {
+    background: #003060d5; 
+  }

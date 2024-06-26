@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.fa-google {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ==== Remove Default hide and show password toggle icon in MS Edge ====*/
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+/* ==== Remove Default arrow of input field ====*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none; /* Standard property */
+}
+
+/* Loader */
+.loader-container-customisation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 18rem);
+  overflow: hidden;
+}
+.loader-container-filter,
+.loader-container-address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 12rem);
+  overflow: hidden;
+}
+.loader-container-productDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 5rem);
+  overflow: hidden;
+}
+.loader-container-orderAdress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11rem;
+  overflow: hidden;
+}
+.loader-container-promocode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #003060;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+

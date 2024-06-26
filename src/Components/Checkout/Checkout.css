@@ -1,0 +1,10 @@
+@media (max-width:380px){
+    .order_summary .order_item{
+        display: block;
+    }
+}
+@media (min-width:769px) and (max-width:1030px){
+    .order_summary .order_item{
+        display: block;
+    }
+}
